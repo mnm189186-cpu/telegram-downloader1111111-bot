@@ -14,6 +14,5 @@ RUN pip install -r requirements.txt
 COPY . .
 
 ENV PYTHONUNBUFFERED=1
-VOLUME ["/app/downloads"]
 
 CMD ["./run.sh"]
